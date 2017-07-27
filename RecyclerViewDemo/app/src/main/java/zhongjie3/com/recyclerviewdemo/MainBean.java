@@ -8,6 +8,7 @@ public class MainBean {
 
     private int iconId;
     private String title;
+    private int type;
 
     public void setIconId(int iconId)
     {
@@ -27,5 +28,15 @@ public class MainBean {
     public String getTitle()
     {
         return this.title;
+    }
+
+    public void setType(int type)
+    {
+        this.type = type;
+    }
+
+    public int getType()
+    {
+        return this.type;
     }
 }
